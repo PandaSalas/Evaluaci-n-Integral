@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+
+
+  body{
+    background-color: #121212;
+  }
+
+
+
+/* 1. Cambiar el color de fondo de la barra de navegación */
+  .navbar-personalizado {
+    background-color: #121212; /* Cambia este código HEX por tu color de fondo */
+  }
+
+
+  /* 2. Cambiar el color del texto y de los iconos del menú */
+  .navbar-personalizado .nav-link {
+    color: #ffffff !important; /* Cambia este código por el color de texto que quieras */
+  }
+
+  /* 3. OPCIONAL: Cambiar el color cuando pasas el mouse por encima (Hover) */
+  .navbar-personalizado .nav-link:hover {
+    color: #C62828 !important; /* Color al pasar el cursor */
+  }
+
+
+  /* Cambiar el color del logo */
+
+
+/* OPCIONAL: Cambiar color del logo al pasar el mouse por encima */
+
+.cabecera-personalizado {
+    background-color: #1e293b !important; /* Cambia este código HEX por tu color de fondo */
+    /* El primer valor es para arriba/abajo y el segundo para los lados */
+    padding: 60px 0px !important; 
+  }
+
+
+
+
+  /* Forzar a que las imágenes del carrusel ocupen todo el ancho sin deformarse */
+  .carousel-item img {
+    width: 100%;
+    height: 500px; /* Puedes ajustar la altura en píxeles que desees para tu pantalla */
+    object-fit: cover; /* Evita que las imágenes se estiren feo */
+  }
+
+  .fondo1{
+    background-color: #121212;
+  }
+
+  .fondo2{
+    background-color: #1E1E1E;
+  }
+
+  .letra-titulo{
+    color: #C62828 !important;
+  }
+
+
+
+  .fondo-rojo{
+    background-color: #A11B1B !important;
+    color: #CFCFCF;
+  }
+
+  .fondo-rojo:hover{
+    background-color: #6E1010 !important;
+  }
+
+  .fondo-form{
+    background-color: #2A2A2A;
+    color: white;
+    border: 1px solid #444;
+    box-shadow: 0 0 20px rgba(123, 139, 78, 0.6);
+    outline: none;
+  }
+
+  .fondo-form:focus{
+    background-color: #2A2A2A;
+    box-shadow: 0 0 20px rgba(123, 139, 78, 0.6);
+    outline: none !important;
+}
+
+.form-control:focus{
+    background-color: #2A2A2A !important;
+    box-shadow: 0 0 30px rgba(123, 139, 78, 0.6), 0 0 4px 1px rgba(197, 214, 150, 0.4) !important;
+    outline: none !important;
+    border: 1px solid #444 !important;
+    color: white;
+}
+
+
+  
+
+  .letra-texto{
+    color: #CFCFCF;
+    transition: 0.15s;
+  }
+
+  .letra-texto-hover:hover{
+    color: #C62828 !important;
+
+  }
+
+  .letra-texto-muted{
+    color: #cfcfcfc5 
+  }
+
+  .letra-texto-muted::placeholder{
+    color: #cfcfcfc5
+  }
+
+  .border-gris{
+    border-color: #cfcfcfc5 !important
+  }
+ 
+  .transicion1{
+    transition: 0.3s
+  }
+
+  .transicion2{
+    transition:  0.5s
+  }
+ 
+  /* Si quieres importar una fuente bonita de Google (opcional) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap');
+
+/* Aplicamos los tipos de letra a las clases que inventamos */
+.fuente-titulos {
+    font-family: 'Montserrat', sans-serif; /* Tipo de letra moderno para el título */
+}
+
+/* 1. Cambia el título principal ("Nuestra Galería") */
+.bg-gallery h2 {
+    color: #ffffff !important; /* Cambia este #ffffff por tu color si quieres */
+}
+
+/* 2. Cambia el color personalizado de los títulos de las campañas ("Punto Muerto", etc.) */
+a.galeria-link h5.galeria-titulo {
+    color: #b31500 !important; /* <--- REEMPLAZA ESTE VERDE (#86b300) POR TU COLOR EXACTO */
+    text-decoration: none;
+}
+
+/* 3. EFECTO HOVER: Color que tomará el texto cuando pases el mouse por encima */
+a.galeria-link:hover h5.galeria-titulo {
+    color: #f12626 !important; /* <--- REEMPLAZA POR EL COLOR QUE QUIERAS AL PASAR EL MOUSE */
+    text-decoration: none !important;
+}
+
+.fuente-subtitulos {
+    font-family: 'Roboto', sans-serif; /* Tipo de letra limpio para el subtítulo */
+    font-size: 14px; /* (Opcional) Si no usas fs-6, puedes fijar el tamaño exacto aquí */
+}
+
+.alturacontenedor{
+  height: 100px;
+  background-color: #1e293b
+}
+
+.color{
+  background-color: rgb(170, 13, 118);
+}
+
+.form-label{
+  color: #38bdf8;
+  font-size: 14px;
+  font-weight: 800;
+}

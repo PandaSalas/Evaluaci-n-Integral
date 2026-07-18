@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosnuevos.css">
+</head>
+<body class="fondo2">
+    <nav class="navbar navbar-expand-lg navbar-personalizado sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand hover-personalizado nav-link transicion2" href="#"><img src="img/LOGO.jpg" alt="" height="40" class="d-inline-block"> Contacto</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                    <a class="nav-link hover-personalizado transicion1" aria-current="page" href="index.html"><i class="bi bi-house"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover-personalizado transicion1" href="supervivientes.html">Supervivientes</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link hover-personalizado transicion1" href="campañas.html">Campañas</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Formulario -->
+    <!-- El truco está en style="max-width: 400px;" que congela el ancho máximo -->
+   
+
+
+
+    <section class="container-fluid p-0">
+    <div class="row text-center g-0">
+        <!--colizq-->
+        <div class="col-2 d-flex">
+            <img src="img/contacto/right.webp" alt="" class="w-100 h-100 object-fit-cover">
+        </div>
+        <!--col central-->
+        <div class="col-8 px-4 pb-2">
+            <h2 class="letra-titulo my-3">¡Déjanos un mensaje!</h2>
+            <div class="mb-4">
+                <label for="exampleFormControlInput1" class="mb-3 fw-bold fs-5 letra-texto">Correo Electrónico</label>
+                <input type="email" class="form-control fondo-form letra-texto-muted" id="exampleFormControlInput1" placeholder="tucorreoelectronico@mail.com">
+            </div>
+            <div class="mb-5">
+                <label for="exampleFormControlTextarea1" class="mb-3 letra-texto fw-bold fs-5">Mensaje</label>
+                <textarea class="form-control fondo-form letra-texto-muted" id="exampleFormControlTextarea1" rows="5"></textarea>
+            </div>
+
+            <!--Redes sociales-->
+            <h3 class="letra-titulo">Redes Sociales</h3>
+            <ul class="d-flex gap-5 justify-content-center my-3 list-unstyled">
+                <li><a href="https://www.facebook.com" class="text-decoration-none letra-texto letra-texto-hover"><i class="bi bi-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com" class="text-decoration-none letra-texto letra-texto-hover"><i class="bi bi-instagram"></i> Instagram</a></li>
+                <li><a href="https://login.microsoftonline.com" class="text-decoration-none letra-texto letra-texto-hover"><i class="bi bi-envelope"></i> E-Mail</a></li>
+                <li><a href="https://www.whatsapp.com" class="text-decoration-none letra-texto letra-texto-hover"><i class="bi bi-whatsapp"></i> Whatsapp</a></li>
+            </ul>
+
+        </div>
+        <!--colder-->
+        <div class="col-2 d-flex mt-0">
+            <img src="img/contacto/left.jpg" alt="" class="w-100 h-100 object-fit-cover">
+        </div>
+
+    </div>
+</section>
+
+    <footer class="fondo1 pt-4 text-muted small">
+        <div class="container">
+            <div class="row text-center text-md-start">
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <ul class="list-unstyled lh-lg ">
+                        <li><a href="index.html" class="text-decoration-none letra-texto">Inicio</a></li>
+                        <li><a href="supervivientes.html" class="text-decoration-none letra-texto">Supervivientes</a></li>
+                        <li><a href="campañas.html" class="text-decoration-none letra-texto">Campañas</a></li>
+                        <li><a href="contacto.html" class="text-decoration-none letra-texto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-4 mb-md-0 text-center letra-texto">
+                    <p>Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido.</p>
+                </div>
+                <div class="col-md-3 letra-texto">
+                    <p class="fw-bold mb-1 letra-texto">Contacto</p>
+                    <p class="mb-1 letra-texto">Teléfono: 999 999 999</p>
+                    <hr>
+                    <a href="" class="text-decoration-none"><p class="mb-0 letra-texto">Políticas</p></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS de Bootstrap 5 con Popper.js incluido (necesario para el Carousel y menús colapsables) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
